@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(216, 241, 241);
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+.container{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    translate: (-50%, -50%); /*set perfectly in the center*/
+}
+.login-box{
+    background-color: aliceblue;
+    padding: 30px;
+    text-align: center; /*making things look actually center*/
+    border-radius: 8px;
+    width: 300px;
+}
+h2{
+    margin: 0;
+    color: darkgrey;
+    font-size: 24px;
+}
+h2{
+    margin: 0;
+    color: darkgrey;
+    font-size: 24px;
+}
+input{
+    display: block;
+    width: 80%; /* 80% OF THE PARENT VIEW*/
+}
