@@ -1,0 +1,8 @@
+.box{
+    border: 2px solid;
+    height: auto;
+    width: 50%;
+
+    box-sizing: border-box; /* aligns boxes side by side*/
+    float: left;
+}
