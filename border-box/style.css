@@ -5,4 +5,7 @@
 
     box-sizing: border-box; /* aligns boxes side by side*/
     float: left;
+    font-family: fantasy;
+    text-decoration: underline;
+text-decoration-color: blue;
 }
