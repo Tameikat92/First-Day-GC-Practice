@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*background-color: #f0f0f0;*/
+}
+
+.box {
+    width: 400px; 
+    height: 500px; 
+    background-color: #fffbfb; /* Background color of the square */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.circle {
+    width: 150px; 
+    height: 150px; 
+    background-color: #47a0ff; /* color of the circle */
+    border-radius: 50%; /* Makes the div a circle */
+    align-items: center;
+
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
