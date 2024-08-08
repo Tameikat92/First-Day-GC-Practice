@@ -1,6 +1,8 @@
 .flexbox-container{
-    display: flex; /* makes side by side*/
-
+    display: flex; /* makes side by side. Column stacks them*/
+    justify-content: space-evenly;
+    /*align-items: flex-end;*/
+    align-items: center;
 }
 
 .flexbox-item{
@@ -11,14 +13,17 @@
 }
 .item1{
     min-height: 100px;
+    flex-shrink: 0; /* if set to 0, no matter what a screen does it wont shrink"*/
 
 }
 
 .item2{
     min-height: 200px;
+    flex-grow: 1 ;
     
 }
 .item3{
-    min-height: 100px;
+    min-height: 300px;
+    flex-grow: 2;
     
 }
