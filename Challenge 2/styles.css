@@ -1,0 +1,25 @@
+.box {
+    width: 400px; 
+    height: 500px; 
+    border: 2px blue dotted ;
+    border-color: rgb(157, 219, 240);
+   
+}
+
+.purplebox{
+    height: 100%;
+    width: 50%;
+    border: 2px solid purple;
+    margin: auto;
+
+}
+
+.bluebox{
+    height: 100%;
+    width: 50%;
+    border: 1px solid;
+    background-color: rgb(0, 179, 255);
+    margin: auto;
+
+
+}
