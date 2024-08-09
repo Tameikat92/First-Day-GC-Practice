@@ -1,0 +1,50 @@
+
+/* this symbol * assigns style to everything on this page and document. */
+*{
+    border: 2px solid blue;
+    margin: 5px;
+    padding: 3px;
+
+}
+/* we style html and body because it structures the page*/
+html,
+body{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body{
+    height: 100vh; /* entire height of screen no matter how much content there is*/
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* could add footer to header since they have the same properties*/
+.footer{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+}
+.nav-list{
+    display: flex; /* align horizontally*/
+    list-style: none;
+}
+
+.main-content{
+    display: flex;
+    flex-grow: 1;
+}
+.article{
+    flex-grow: 3; /* takes up a third of the page*/
+}
+.aside{
+    flex-grow: 1; 
+}
