@@ -16,7 +16,7 @@ let tempCelsius = prompt("Enter Temperature");
 let targetUnit = prompt("Enter C ,K, F");
 console.log(tempCelsius)
 console(tempCelsius)
- if (tempCelsius === "C") {
+ if (tempCelsius === targetUnit) {
     console.log("Celsisus is fine")
  } else if (tempCelsius === "K") {
   console.log("Kelvin is getting high")
