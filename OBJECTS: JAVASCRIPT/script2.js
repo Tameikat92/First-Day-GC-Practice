@@ -60,9 +60,20 @@ const person2 = {
     },
 
     fullName: function(){
-        console.log(this.firstName2);
+        //console.log(this.firstName2);
        // return this.firstName + " " + this.lastName;
+       return this.firstName
     }
 }
 
 console.log(person.fullName());
+
+//--------------------------------
+
+const numbers = [0,1,2,3,4,5,];
+
+function display(number){
+    console.log(number);
+}
+
+numbers.forEach(number) // go throught the element one at a time
