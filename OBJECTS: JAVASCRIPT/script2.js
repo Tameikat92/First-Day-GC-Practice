@@ -72,8 +72,15 @@ console.log(person.fullName());
 
 const numbers = [0,1,2,3,4,5,];
 
-function display(number){
-    console.log(number);
+// function display(number){
+//     console.log(number);
+// }
+
+//callback function. Function that calls another function amd then it does something
+numbers.forEach(
+    function(number) {
+        console.log(number);
 }
 
-numbers.forEach(number) // go throught the element one at a time
+);
+// go through the element one at a time
